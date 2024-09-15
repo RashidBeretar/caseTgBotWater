@@ -13,7 +13,7 @@ bot = telebot.TeleBot('Введите токен')
 @bot.message_handler(commands=['help'])
 def help_message(message):
     help_text = (
-        "Доступные команды:\n"
+        " Доступные команды:\n"
         "/start - Начать напоминать о воде\n"
         "/help - Какие команды есть\n"
         "/fact - Интересный факт о воде\n"
